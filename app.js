@@ -1,2 +1,5 @@
 import solve from "./tools/solve.mjs"
-solve('day-1-part-1')
+
+let puzzleToPrint = 'day-1-part-1'
+
+solve(puzzleToPrint)
