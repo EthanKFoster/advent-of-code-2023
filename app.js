@@ -1,4 +1,4 @@
-import solve from "./tools/solve.mjs"
+import solve from "./tools/solve.js"
 
 let puzzleToPrint = 'day-1-part-1'
 
