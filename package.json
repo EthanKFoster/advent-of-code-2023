@@ -1,0 +1,9 @@
+{
+  "name": "advent-of-code-2023",
+  "version": "1.0.0",
+  "description": "doing it in javascript this time",
+  "main": "day-1.js",
+  "author": "EthanKFoster",
+  "license": "ISC",
+  "type": "module"
+}
