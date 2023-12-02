@@ -5,4 +5,13 @@ export function getData(filePath) {
   return data
 }
 
-export function arrayFromLines() {}
+export function strSplitByLine(string) {
+  return string.split("\r\n")
+}
+
+export function arrayStrToInt(array) {
+  let result = array.map(function (element) {
+    return parseInt(element)
+  });
+  return result
+}
