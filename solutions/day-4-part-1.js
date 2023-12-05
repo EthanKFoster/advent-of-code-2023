@@ -40,7 +40,8 @@ Take a seat in the large pile of colorful cards. How many points are they worth 
 // 10 | 25 
 // assume no duplicates
 
-import { getData, strSplitByLine, arraySum } from "../tools/inputmanip.js"
+import { getData, strSplitByLine } from "../tools/inputmanip.js"
+import { arraySum } from "../tools/helpers.js"
 
 function cleanData() {
   // use loop w/ .indexOf() to remove the card from beginning of each string
