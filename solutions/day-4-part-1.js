@@ -36,8 +36,28 @@ Take a seat in the large pile of colorful cards. How many points are they worth 
 
 */
 
-import { getData } from "../tools/inputmanip.js"
+// data notes:
+// 10 | 25 
+// assume no duplicates
+
+import { getData, strSplitByLine, arraySum } from "../tools/inputmanip.js"
+
+function cleanData() {
+  // use loop w/ .indexOf() to remove the card from beginning of each string
+  // use loop w/ .indexOf() to also remove he pipe from each string
+  // for each card, create a nested array of numbers delineated by any amount of white space
+  // or maybe turn each string into an int, then create an array
+}
+
+function pointsPerCard() {
+  // for each card array, return a new Set(arr) of unique values
+  // for each card, push the value of the difference of each card's quantity of unique values from 25 into a new array, if it's not 0
+  // pointsPerCard = 2^(diff-1)
+  // return pointsPerCard
+}
+
+let totalPoints = arraySum(pointsPerCard(cleanData(strSplitByLine(getData('day-4')))))
 
 export let solution = () => {
-  return "this works"
+  return totalPoints
 }
