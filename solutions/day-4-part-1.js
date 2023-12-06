@@ -44,7 +44,7 @@ import { getData, strSplitByLine } from "../tools/inputmanip.js"
 import { arraySum } from "../tools/helpers.js"
 
 function cleanData() {
-  // use loop w/ .indexOf() to remove the card from beginning of each string, and also .replace() for the pipe 
+  // use loop w/ .indexOf() to remove the card from beginning of each string, and also .replace("|", "") for the pipe 
   // for each card, create a nested array of numbers delineated by any amount of white space
   // or maybe turn each string into an int, then create an array
 }
