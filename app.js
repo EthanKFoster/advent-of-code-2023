@@ -53,6 +53,6 @@ let puzzles = [
   "day-25-part-2", // 49
 ]
 
-let puzzleToPrint = puzzles[6]
+let puzzleToPrint = puzzles[2]
 
 solve(puzzleToPrint)
